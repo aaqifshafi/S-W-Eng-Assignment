@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software: The Process & Product</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/footers/">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg" style="background-color: #22a39f;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html">Assignment</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a onclick="handleClick('topic_6')" class="nav-link" href="#">Previous</a>
+                    </li>
+                    <li class="nav-item">
+                        <a onclick="handleClick('topic_8')" class="nav-link" href="#">Next</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- Body? -->
+    <div class="container-fluid">
+        <h1 class="text-center" id="heading">Process Framework</h1>
+        <div class="container">
+            <p>Software Process Framework is an abstraction of the software development process. It details the steps
+                and chronological order of a process. Since it serves as a foundation for them, it is utilized in most
+                applications. Task sets, umbrella activities, and process framework activities all define the
+                characteristics of the software development process.</p><br>
+            Software process includes:
+            <ul>
+                <li>Tasks – focus on a small, specific objective.</li>
+                <li>Action – set of tasks that produce a major work product.</li>
+                <li>
+                    Activities – group of related tasks and actions for a major objective.</li>
+            </ul>
+            <img class="image rounded mx-auto d-block py-5" src="/images/Process_framework.png" alt="Process Framework">
+            <h5>Process Framework Activities:</h5>
+            <p>The process framework is required for representing common process activities. Five framework activities
+                are described in a process framework for software engineering. Communication, planning, modeling,
+                construction, and deployment are all examples of framework activities. Each engineering action defined
+                by a framework activity comprises a list of needed work outputs, project milestones, and software
+                quality assurance (SQA) points.</p>
+            <ul>
+                <li><b>Communication:</b> By communication, customer requirement gathering is done. Communication with
+                    consumers and stakeholders to determine the system’s objectives and the software’s requirements.
+                </li>
+                <li><b>Planning:</b> Establish engineering work plan, describes technical risk, lists resources
+                    requirements, work produced and defines work schedule.</li>
+                <li><b>Modeling:</b> Architectural models and design to better understand the problem and for work
+                    towards the best solution. The software model is prepared by:
+                    <ul>
+                        <li> Analysis of requirements</li>
+                        <li> Design</li>
+                    </ul>
+                </li>
+                <li><b>Construction:</b> Creating code, testing the system, fixing bugs, and confirming that all
+                    criteria are met. The software design is mapped into a code by:
+                    <ul>
+                        <li> Code generation</li>
+                        <li> Testing </li>
+                    </ul>
+                </li>
+                <li><b>Deployment:</b> In this activity, a complete or non-complete product or software is represented
+                    to the customers to evaluate and give feedback. On the basis of their feedback, we modify the
+                    product for the supply of better products.</li>
+            </ul>
+            <h5>Umbrella activities: </h5>
+            <p>Umbrella Activities are that take place during a software development process for improved project
+                management and tracking.</p>
+            <ul>
+                <li><b>Software project tracking and control:</b> This is an activity in which the team can assess
+                    progress and take corrective action to maintain the schedule. Take action to keep the project on
+                    time by comparing the project’s progress against the plan.</li>
+                <li><b>Risk management:</b> The risks that may affect project outcomes or quality can be analyzed.
+                    Analyze potential risks that may have an impact on the software product’s quality and outcome.</li>
+                <li><b>Software quality assurance:</b> These are activities required to maintain software quality.
+                    Perform actions to ensure the product’s quality.</li>
+                <li><b>Formal technical reviews:</b> It is required to assess engineering work products to uncover and
+                    remove errors before they propagate to the next activity. At each level of the process, errors are
+                    evaluated and fixed.</li>
+                <li><b>Software configuration management:</b> Managing of configuration process when any change in the
+                    software occurs.</li>
+                <li><b>Work product preparation and production:</b> The activities to create models, documents, logs,
+                    forms, and lists are carried out.</li>
+                <li><b>Reusability management:</b> It defines criteria for work product reuse. Reusable work items
+                    should be backed up, and reusable software components should be achieved.</li>
+                <li><b>Measurement:</b> In this activity, the process can be defined and collected. Also, project and
+                    product measures are used to assist the software team in delivering the required software. </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <!-- Footer -->
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center foot">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                </a>
+                <span class="mb-3 mb-md-0 text-muted">&copy; 2023 College Assignment</span>
+            </div>
+
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-4"><a class="text-muted" target="_blank" href="http://twitter.com/aaqifshafi"><i
+                            class="fa-brands fa-twitter"></i></a></li>
+                <li class="ms-3"><a class="text-muted" target="_blank" href="http://instagram.com/aaqifshafi"><i
+                            class="fa-brands fa-instagram"></i></a></li>
+                <li class="ms-3"><a class="text-muted" target="_blank"
+                        href="https://www.facebook.com/profile.php?id=100079561792487"><i
+                            class="fa-brands fa-facebook"></i></a></li>
+            </ul>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="/script.js"></script>
+</body>
+
+</html>

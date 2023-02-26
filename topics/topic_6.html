@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software: The Process & Product</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/footers/">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg" style="background-color: #22a39f;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html">Assignment</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a onclick="handleClick('topic_5')" class="nav-link" href="#">Previous</a>
+                    </li>
+                    <li class="nav-item">
+                        <a onclick="handleClick('topic_7')" class="nav-link" href="#">Next</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- Body? -->
+    <div class="container-fluid">
+        <h1 class="text-center" id="heading">Software Engineering: A layered Technology</h1>
+        <div class="container">
+            <p>Software engineering is a fully layered technology, to develop software we need to go from one layer to
+                another. All the layers are connected and each layer demands the fulfillment of the previous layer.
+            </p>
+            <img class="image rounded mx-auto d-block py-5" src="/images/layered_tech.png"
+                alt="layers of software development">
+            <h4>Layered technology is divided into four parts:</h4>
+            <ol>
+                <li><b>A quality focus:</b> It defines the continuous process improvement principles of software. It
+                    provides integrity that means providing security to the software so that data can be accessed by
+                    only an authorized person, no outsider can access the data. It also focuses on maintainability and
+                    usability.</li><br>
+                <li> <b>Process:</b> It is the foundation or base layer of software engineering. It is key that binds
+                    all the layers together which enables the development of software before the deadline or on time.
+                    Process defines a framework that must be established for the effective delivery of software
+                    engineering technology. The software process covers all the activities, actions, and tasks required
+                    to be carried out for software development. </li>
+                <img class="image rounded mx-auto d-block py-5" src="/images/layered_tech.png" alt="Process Activities">
+                <h5>Process activities are listed below:-</h5>
+                <ul>
+                    <li><b>Communication:</b> It is the first and foremost thing for the development of software.
+                        Communication is necessary to know the actual demand of the client.</li>
+                    <li><b>Planning:</b> It basically means drawing a map for reduced the complication of development.
+                    </li>
+                    <li><b>Modeling:</b> In this process, a model is created according to the client for better
+                        understanding.</li>
+                    <li><b>Construction:</b> It includes the coding and testing of the problem.</li>
+                    <li><b>Deployment:</b> It includes the delivery of software to the client for evaluation and
+                        feedback.</li><br>
+                </ul>
+                <li><b>Method:</b> During the process of software development the answers to all “how-to-do” questions
+                    are
+                    given by method. It has the information of all the tasks which includes communication, requirement
+                    analysis, design modeling, program construction, testing, and support.</li><br>
+                <li><b>Tools:</b> Software engineering tools provide a self-operating system for processes and methods.
+                    Tools are integrated which means information created by one tool can be used by another.
+                    Software engineering tools provide a self-operating system for processes and methods. Tools are
+                    integrated which means information created by one tool can be used by another. </li>
+            </ol>
+        </div>
+    </div>
+
+
+
+    <!-- Footer -->
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center foot">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                </a>
+                <span class="mb-3 mb-md-0 text-muted">&copy; 2023 College Assignment</span>
+            </div>
+
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-4"><a class="text-muted" target="_blank" href="http://twitter.com/aaqifshafi"><i
+                            class="fa-brands fa-twitter"></i></a></li>
+                <li class="ms-3"><a class="text-muted" target="_blank" href="http://instagram.com/aaqifshafi"><i
+                            class="fa-brands fa-instagram"></i></a></li>
+                <li class="ms-3"><a class="text-muted" target="_blank"
+                        href="https://www.facebook.com/profile.php?id=100079561792487"><i
+                            class="fa-brands fa-facebook"></i></a></li>
+            </ul>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="/script.js"></script>
+</body>
+
+</html>

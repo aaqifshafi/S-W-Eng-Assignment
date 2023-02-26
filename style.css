@@ -1,0 +1,27 @@
+a:hover,
+a:focus {
+  color: #22a39f;
+}
+.link-primary {
+  color: #434242 !important;
+}
+h3 {
+  color: #537fe7;
+  margin-left: 10px;
+}
+#heading {
+  color: #22a39f;
+  padding: 2%;
+}
+.contents {
+  padding-bottom: 10vh;
+}
+.foot {
+  margin: 3rem;
+}
+.image {
+  max-width: 60%;
+}
+.list-heading {
+  color: #22a39f;
+}
